@@ -1,0 +1,10 @@
+{
+  // amplíe su configuración base para compartir opciones del compilador, etc.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // garantizar que nadie pueda utilizar accidentalmente esta configuración para una compilación
+    "noEmit": true
+  },
+  // cualquier ruta que desee utilizar
+  "include": [".eslintrc.js"]
+}
